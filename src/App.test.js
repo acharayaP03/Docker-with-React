@@ -14,8 +14,3 @@ test('renders without crashing', () =>{
   ReactDOM.unmountComponentAtNode(div);
 })
 
-test('renders without crashing double time', () =>{
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-})
